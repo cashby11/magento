@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>magentoSolution</Name>
+    <ProjectGuid>bff2dd50-2e09-4a48-8c0f-e45c66499ea7</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>magentoSolution</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>magentoSolution</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\code\" />
+    <Folder Include="app\code\community\" />
+    <Folder Include="app\code\community\Ess\" />
+    <Folder Include="app\code\community\Ess\M2ePro\" />
+    <Folder Include="app\code\community\Ess\M2ePro\Block\" />
+    <Folder Include="app\code\community\Ess\M2ePro\Block\Adminhtml\" />
+    <Folder Include="app\code\community\Ess\M2ePro\Block\Adminhtml\Ebay\" />
+    <Folder Include="app\code\community\Ess\M2ePro\Block\Adminhtml\Ebay\Template\" />
+    <Folder Include="app\code\community\Ess\M2ePro\Block\Adminhtml\Ebay\Template\Return\" />
+    <Folder Include="app\code\community\Ess\M2ePro\Block\Adminhtml\Ebay\Template\Return\Edit\" />
+    <Folder Include="app\code\core\" />
+    <Folder Include="app\code\core\Mage\" />
+    <Folder Include="app\code\core\Mage\Connect\" />
+    <Folder Include="app\code\core\Mage\Connect\controllers\" />
+    <Folder Include="app\code\core\Mage\Connect\controllers\Adminhtml\" />
+    <Folder Include="app\code\core\Mage\Connect\controllers\Adminhtml\Extension\" />
+    <Folder Include="app\code\local\" />
+    <Folder Include="app\code\local\Elite\" />
+    <Folder Include="app\code\local\Elite\Vaf\" />
+    <Folder Include="app\code\local\Elite\Vaf\Model\" />
+    <Folder Include="app\code\local\Elite\Vaf\Model\Catalog\" />
+    <Folder Include="app\code\local\Enterprise\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\Model\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\Model\Index\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\Model\Index\Action\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\Model\Index\Action\Catalog\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\Model\Index\Action\Catalog\Category\" />
+    <Folder Include="app\code\local\Enterprise\Catalog\Model\Index\Action\Catalog\Category\Product\" />
+    <Folder Include="app\code\local\Magestore\" />
+    <Folder Include="app\code\local\Magestore\Magenotification\" />
+    <Folder Include="app\code\local\Magestore\Magenotification\Block\" />
+    <Folder Include="app\code\local\Magestore\Magenotification\Block\Adminhtml\" />
+    <Folder Include="app\code\local\Magestore\Magenotification\Block\Adminhtml\Notification\" />
+    <Folder Include="app\code\local\Mage\" />
+    <Folder Include="app\code\local\Mage\Catalog\" />
+    <Folder Include="app\code\local\Mage\Catalog\Model\" />
+    <Folder Include="app\code\local\Mage\Catalog\Model\Resource\" />
+    <Folder Include="app\code\local\Mage\Catalog\Model\Resource\Product\" />
+    <Folder Include="app\code\local\Mage\Catalog\Model\Resource\Product\Indexer\" />
+    <Folder Include="app\code\local\Mage\Catalog\Model\Resource\Product\Indexer\Eav\" />
+    <Folder Include="app\code\local\Sm\" />
+    <Folder Include="app\code\local\Sm\Shopby\" />
+    <Folder Include="app\code\local\Sm\Shopby\catalog\" />
+    <Folder Include="app\code\local\Sm\Shopby\catalog\product\" />
+    <Folder Include="app\design\" />
+    <Folder Include="app\design\frontend\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\default\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\default\template\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\default\template\sm\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\default\template\sm\shopby\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\default\template\sm\shopby\catalog\" />
+    <Folder Include="app\design\frontend\sm-shoppystore\default\template\sm\shopby\catalog\product\" />
+    <Folder Include="app\design\frontend\sm-topshop\" />
+    <Folder Include="app\design\frontend\sm-topshop\default\" />
+    <Folder Include="app\design\frontend\sm-topshop\default\template\" />
+    <Folder Include="app\design\frontend\sm-topshop\default\template\catalog\" />
+    <Folder Include="app\design\frontend\sm-topshop\default\template\catalog\product\" />
+    <Folder Include="app\design\frontend\smartwave\" />
+    <Folder Include="app\design\frontend\smartwave\default\" />
+    <Folder Include="app\design\frontend\smartwave\default\layout\" />
+    <Folder Include="app\design\frontend\smartwave\porto\" />
+    <Folder Include="app\design\frontend\smartwave\porto\layout\" />
+    <Folder Include="app\design\frontend\smartwave\porto\template\" />
+    <Folder Include="app\design\frontend\smartwave\porto\template\catalog\" />
+    <Folder Include="app\design\frontend\smartwave\porto\template\catalog\product\" />
+    <Folder Include="app\etc\" />
+    <Folder Include="app\etc\modules\" />
+    <Folder Include="dev\" />
+    <Folder Include="dev\tests\" />
+    <Folder Include="dev\tests\functional\" />
+    <Folder Include="dev\tests\functional\tests\" />
+    <Folder Include="dev\tests\functional\tests\app\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\Test\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\Test\Block\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\Test\Block\Adminhtml\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\Test\Block\Adminhtml\Widget\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\Test\Block\Adminhtml\Widget\Instance\" />
+    <Folder Include="dev\tests\functional\tests\app\Mage\Widget\Test\Block\Adminhtml\Widget\Instance\Edit\" />
+    <Folder Include="downloader\" />
+    <Folder Include="downloader\Maged\" />
+    <Folder Include="js\" />
+    <Folder Include="js\tiny_mce\" />
+    <Folder Include="js\tiny_mce\plugins\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\Zend\" />
+    <Folder Include="lib\Zend\Db\" />
+    <Folder Include="lib\Zend\Db\Adapter\" />
+    <Folder Include="lib\Zend\XmlRpc\" />
+    <Folder Include="magmi\" />
+    <Folder Include="magmi\plugins\" />
+    <Folder Include="magmi\plugins\garbocom\" />
+    <Folder Include="magmi\plugins\garbocom\itemprocessors\" />
+    <Folder Include="magmi\plugins\garbocom\itemprocessors\weeetax\" />
+    <Folder Include="magmi\plugins\utilities\" />
+    <Folder Include="magmi\plugins\utilities\clearproductsandcategories\" />
+    <Folder Include="magmi\plugins\utilities\clearproducts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app\code\core\Mage\Connect\controllers\Adminhtml\Extension\CustomController.php" />
+    <Compile Include="app\code\core\Mage\Connect\controllers\Adminhtml\Extension\LocalController.php" />
+    <Compile Include="app\code\local\Elite\Vaf\Model\Catalog\Product.php" />
+    <Compile Include="app\code\local\Enterprise\Catalog\Model\Index\Action\Catalog\Category\Product\Refresh.php" />
+    <Compile Include="app\code\local\Magestore\Magenotification\Block\Adminhtml\Notification\Window.php" />
+    <Compile Include="app\code\local\Mage\Catalog\Model\Resource\Product\Indexer\Abstract.php" />
+    <Compile Include="app\code\local\Mage\Catalog\Model\Resource\Product\Indexer\Eav\Source.php" />
+    <Compile Include="cleanup.php" />
+    <Compile Include="downloader\Maged\Controller.php" />
+    <Compile Include="lib\Zend\Db\Adapter\Abstract.php" />
+    <Compile Include="magmi\plugins\garbocom\itemprocessors\weeetax\options_panel.php" />
+    <Compile Include="magmi\plugins\garbocom\itemprocessors\weeetax\weee_processor.php" />
+    <Compile Include="magmi\plugins\utilities\clearproductsandcategories\clearproductsandcategories.php" />
+    <Compile Include="magmi\plugins\utilities\clearproducts\clearproduct.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="app\code\local\Sm\Shopby\catalog\product\list.phtml" />
+    <Content Include="app\design\frontend\sm-shoppystore\default\template\sm\shopby\catalog\product\list.phtml" />
+    <Content Include="app\design\frontend\sm-topshop\default\template\catalog\product\list.phtml" />
+    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_ajaxcart.xml" />
+    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_ajaxcatalog.xml" />
+    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_fullajax.xml" />
+    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_socialfeeds.xml" />
+    <Content Include="app\design\frontend\smartwave\porto\layout\configurableswatches.xml" />
+    <Content Include="app\design\frontend\smartwave\porto\layout\smartwave_fullajax.xml" />
+    <Content Include="app\design\frontend\smartwave\porto\layout\smartwave_socialfeeds.xml" />
+    <Content Include="app\design\frontend\smartwave\porto\template\catalog\product\list.phtml" />
+    <Content Include="app\etc\modules\Smartwave_CatalogCategorySearch.xml" />
+  </ItemGroup>
+</Project>
