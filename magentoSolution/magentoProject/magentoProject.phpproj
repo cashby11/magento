@@ -147,13 +147,6 @@
     <Content Include="app\code\local\Sm\Shopby\catalog\product\list.phtml" />
     <Content Include="app\design\frontend\sm-shoppystore\default\template\sm\shopby\catalog\product\list.phtml" />
     <Content Include="app\design\frontend\sm-topshop\default\template\catalog\product\list.phtml" />
-    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_ajaxcart.xml" />
-    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_ajaxcatalog.xml" />
-    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_fullajax.xml" />
-    <Content Include="app\design\frontend\smartwave\default\layout\smartwave_socialfeeds.xml" />
-    <Content Include="app\design\frontend\smartwave\porto\layout\configurableswatches.xml" />
-    <Content Include="app\design\frontend\smartwave\porto\layout\smartwave_fullajax.xml" />
-    <Content Include="app\design\frontend\smartwave\porto\layout\smartwave_socialfeeds.xml" />
     <Content Include="app\design\frontend\smartwave\porto\template\catalog\product\list.phtml" />
     <Content Include="app\etc\modules\Smartwave_CatalogCategorySearch.xml" />
   </ItemGroup>
