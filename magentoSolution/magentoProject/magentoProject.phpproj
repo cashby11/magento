@@ -127,7 +127,6 @@
     <Folder Include="magmi\plugins\utilities\clearproducts\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="app\code\core\Mage\Connect\controllers\Adminhtml\Extension\CustomController.php" />
     <Compile Include="app\code\core\Mage\Connect\controllers\Adminhtml\Extension\LocalController.php" />
     <Compile Include="app\code\local\Elite\Vaf\Model\Catalog\Product.php" />
     <Compile Include="app\code\local\Enterprise\Catalog\Model\Index\Action\Catalog\Category\Product\Refresh.php" />
